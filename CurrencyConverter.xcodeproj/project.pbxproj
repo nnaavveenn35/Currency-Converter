@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015C9EF317914F3100DE9047 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 015C9EF217914F3100DE9047 /* QuartzCore.framework */; };
-		015C9EF5179165E200DE9047 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 015C9EF4179165E200DE9047 /* Default.png */; };
 		01E278BB17911C3500E55918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E278BA17911C3500E55918 /* UIKit.framework */; };
 		01E278BD17911C3500E55918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E278BC17911C3500E55918 /* Foundation.framework */; };
 		01E278BF17911C3500E55918 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E278BE17911C3500E55918 /* CoreGraphics.framework */; };
 		01E278C517911C3500E55918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E278C317911C3500E55918 /* InfoPlist.strings */; };
 		01E278C717911C3500E55918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E278C617911C3500E55918 /* main.m */; };
 		01E278CB17911C3500E55918 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E278CA17911C3500E55918 /* AppDelegate.m */; };
+		01E278CD17911C3500E55918 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E278CC17911C3500E55918 /* Default.png */; };
 		01E278CF17911C3500E55918 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E278CE17911C3500E55918 /* Default@2x.png */; };
 		01E278D117911C3500E55918 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E278D017911C3500E55918 /* Default-568h@2x.png */; };
 		01E278D417911C3500E55918 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E278D317911C3500E55918 /* ViewController.m */; };
@@ -22,8 +21,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		015C9EF217914F3100DE9047 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		015C9EF4179165E200DE9047 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../../../Desktop/Default.png; sourceTree = "<group>"; };
 		01E278B717911C3500E55918 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01E278BA17911C3500E55918 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		01E278BC17911C3500E55918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,6 +31,7 @@
 		01E278C817911C3500E55918 /* CurrencyConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurrencyConverter-Prefix.pch"; sourceTree = "<group>"; };
 		01E278C917911C3500E55918 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		01E278CA17911C3500E55918 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01E278CC17911C3500E55918 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		01E278CE17911C3500E55918 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		01E278D017911C3500E55918 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		01E278D217911C3500E55918 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -46,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				015C9EF317914F3100DE9047 /* QuartzCore.framework in Frameworks */,
 				01E278BB17911C3500E55918 /* UIKit.framework in Frameworks */,
 				01E278BD17911C3500E55918 /* Foundation.framework in Frameworks */,
 				01E278BF17911C3500E55918 /* CoreGraphics.framework in Frameworks */,
@@ -59,7 +56,6 @@
 		01E278AE17911C3500E55918 = {
 			isa = PBXGroup;
 			children = (
-				015C9EF217914F3100DE9047 /* QuartzCore.framework */,
 				01E278C017911C3500E55918 /* CurrencyConverter */,
 				01E278B917911C3500E55918 /* Frameworks */,
 				01E278B817911C3500E55918 /* Products */,
@@ -100,11 +96,11 @@
 		01E278C117911C3500E55918 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				015C9EF4179165E200DE9047 /* Default.png */,
 				01E278C217911C3500E55918 /* CurrencyConverter-Info.plist */,
 				01E278C317911C3500E55918 /* InfoPlist.strings */,
 				01E278C617911C3500E55918 /* main.m */,
 				01E278C817911C3500E55918 /* CurrencyConverter-Prefix.pch */,
+				01E278CC17911C3500E55918 /* Default.png */,
 				01E278CE17911C3500E55918 /* Default@2x.png */,
 				01E278D017911C3500E55918 /* Default-568h@2x.png */,
 			);
@@ -163,10 +159,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				01E278C517911C3500E55918 /* InfoPlist.strings in Resources */,
+				01E278CD17911C3500E55918 /* Default.png in Resources */,
 				01E278CF17911C3500E55918 /* Default@2x.png in Resources */,
 				01E278D117911C3500E55918 /* Default-568h@2x.png in Resources */,
 				01E278D717911C3500E55918 /* ViewController.xib in Resources */,
-				015C9EF5179165E200DE9047 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,7 +298,6 @@
 				01E278DC17911C3500E55918 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

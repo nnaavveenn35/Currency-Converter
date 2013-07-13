@@ -9,14 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-<UIPickerViewDataSource, UIPickerViewDelegate, UITextFieldDelegate>
-{
-    NSArray *currencies;
-    NSMutableDictionary *conversionDict;
-}
 
-@property (strong, nonatomic) IBOutlet UIPickerView *pickerView;
-@property (strong, nonatomic) IBOutlet UITextField *inputText;
-@property (strong, nonatomic) IBOutlet UILabel *outputAmount;
-@property (strong, nonatomic) IBOutlet UITableView *tableView;
 @end
