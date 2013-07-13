@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01E278BB17911C3500E55918 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E278BA17911C3500E55918 /* UIKit.framework */; };
+		01E278BD17911C3500E55918 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E278BC17911C3500E55918 /* Foundation.framework */; };
+		01E278BF17911C3500E55918 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E278BE17911C3500E55918 /* CoreGraphics.framework */; };
+		01E278C517911C3500E55918 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01E278C317911C3500E55918 /* InfoPlist.strings */; };
+		01E278C717911C3500E55918 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E278C617911C3500E55918 /* main.m */; };
+		01E278CB17911C3500E55918 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E278CA17911C3500E55918 /* AppDelegate.m */; };
+		01E278CD17911C3500E55918 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E278CC17911C3500E55918 /* Default.png */; };
+		01E278CF17911C3500E55918 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E278CE17911C3500E55918 /* Default@2x.png */; };
+		01E278D117911C3500E55918 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01E278D017911C3500E55918 /* Default-568h@2x.png */; };
+		01E278D417911C3500E55918 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01E278D317911C3500E55918 /* ViewController.m */; };
+		01E278D717911C3500E55918 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01E278D517911C3500E55918 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01E278B717911C3500E55918 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01E278BA17911C3500E55918 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01E278BC17911C3500E55918 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01E278BE17911C3500E55918 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01E278C217911C3500E55918 /* CurrencyConverter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CurrencyConverter-Info.plist"; sourceTree = "<group>"; };
+		01E278C417911C3500E55918 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01E278C617911C3500E55918 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01E278C817911C3500E55918 /* CurrencyConverter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CurrencyConverter-Prefix.pch"; sourceTree = "<group>"; };
+		01E278C917911C3500E55918 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01E278CA17911C3500E55918 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01E278CC17911C3500E55918 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		01E278CE17911C3500E55918 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		01E278D017911C3500E55918 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		01E278D217911C3500E55918 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01E278D317911C3500E55918 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01E278D617911C3500E55918 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01E278B417911C3500E55918 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E278BB17911C3500E55918 /* UIKit.framework in Frameworks */,
+				01E278BD17911C3500E55918 /* Foundation.framework in Frameworks */,
+				01E278BF17911C3500E55918 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01E278AE17911C3500E55918 = {
+			isa = PBXGroup;
+			children = (
+				01E278C017911C3500E55918 /* CurrencyConverter */,
+				01E278B917911C3500E55918 /* Frameworks */,
+				01E278B817911C3500E55918 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01E278B817911C3500E55918 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E278B717911C3500E55918 /* CurrencyConverter.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01E278B917911C3500E55918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01E278BA17911C3500E55918 /* UIKit.framework */,
+				01E278BC17911C3500E55918 /* Foundation.framework */,
+				01E278BE17911C3500E55918 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01E278C017911C3500E55918 /* CurrencyConverter */ = {
+			isa = PBXGroup;
+			children = (
+				01E278C917911C3500E55918 /* AppDelegate.h */,
+				01E278CA17911C3500E55918 /* AppDelegate.m */,
+				01E278D217911C3500E55918 /* ViewController.h */,
+				01E278D317911C3500E55918 /* ViewController.m */,
+				01E278D517911C3500E55918 /* ViewController.xib */,
+				01E278C117911C3500E55918 /* Supporting Files */,
+			);
+			path = CurrencyConverter;
+			sourceTree = "<group>";
+		};
+		01E278C117911C3500E55918 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01E278C217911C3500E55918 /* CurrencyConverter-Info.plist */,
+				01E278C317911C3500E55918 /* InfoPlist.strings */,
+				01E278C617911C3500E55918 /* main.m */,
+				01E278C817911C3500E55918 /* CurrencyConverter-Prefix.pch */,
+				01E278CC17911C3500E55918 /* Default.png */,
+				01E278CE17911C3500E55918 /* Default@2x.png */,
+				01E278D017911C3500E55918 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01E278B617911C3500E55918 /* CurrencyConverter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01E278DA17911C3500E55918 /* Build configuration list for PBXNativeTarget "CurrencyConverter" */;
+			buildPhases = (
+				01E278B317911C3500E55918 /* Sources */,
+				01E278B417911C3500E55918 /* Frameworks */,
+				01E278B517911C3500E55918 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CurrencyConverter;
+			productName = CurrencyConverter;
+			productReference = 01E278B717911C3500E55918 /* CurrencyConverter.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01E278AF17911C3500E55918 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "NAVEEN ";
+			};
+			buildConfigurationList = 01E278B217911C3500E55918 /* Build configuration list for PBXProject "CurrencyConverter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01E278AE17911C3500E55918;
+			productRefGroup = 01E278B817911C3500E55918 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01E278B617911C3500E55918 /* CurrencyConverter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01E278B517911C3500E55918 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E278C517911C3500E55918 /* InfoPlist.strings in Resources */,
+				01E278CD17911C3500E55918 /* Default.png in Resources */,
+				01E278CF17911C3500E55918 /* Default@2x.png in Resources */,
+				01E278D117911C3500E55918 /* Default-568h@2x.png in Resources */,
+				01E278D717911C3500E55918 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01E278B317911C3500E55918 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E278C717911C3500E55918 /* main.m in Sources */,
+				01E278CB17911C3500E55918 /* AppDelegate.m in Sources */,
+				01E278D417911C3500E55918 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01E278C317911C3500E55918 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E278C417911C3500E55918 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01E278D517911C3500E55918 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01E278D617911C3500E55918 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01E278D817911C3500E55918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01E278D917911C3500E55918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01E278DB17911C3500E55918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverter/CurrencyConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01E278DC17911C3500E55918 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CurrencyConverter/CurrencyConverter-Prefix.pch";
+				INFOPLIST_FILE = "CurrencyConverter/CurrencyConverter-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01E278B217911C3500E55918 /* Build configuration list for PBXProject "CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E278D817911C3500E55918 /* Debug */,
+				01E278D917911C3500E55918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01E278DA17911C3500E55918 /* Build configuration list for PBXNativeTarget "CurrencyConverter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01E278DB17911C3500E55918 /* Debug */,
+				01E278DC17911C3500E55918 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01E278AF17911C3500E55918 /* Project object */;
+}
